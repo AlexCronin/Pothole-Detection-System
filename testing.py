@@ -436,6 +436,9 @@ def test10():
 	
 if __name__ == '__main__':
 
+	func_dict = {'test1':test1, 'test2':test2, 'test3':test3, 'test4':test4, 'test5':test5, 'test6':test6, 'test7':test7,'test8':test8, 'test9':test9,'test10':test10}
+	print("Enter the test number you wish to run (1-10), e.g test6")
+	func = input('>')
+	func_dict[func]()
+	
 	#main()
-	#test1()
-	test10()
